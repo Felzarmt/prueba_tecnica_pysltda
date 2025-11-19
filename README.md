@@ -22,8 +22,8 @@ pip install django djangorestframework django-cors-headers
 python manage.py migrate
 
 # Superusuario
-user:     admin
-password: pipE123456*
+python manage.py createsuperuser
+(El super usuario que se cree es el mismo usuario para acceder al software desde el cliente)
 
 # Servidor
 python manage.py runserver
