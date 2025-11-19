@@ -1,0 +1,18 @@
+[
+  {
+    "model": "transport.ciudad",
+    "pk": 1,
+    "fields": {
+      "nombre": "Bogotá",
+      "activo": true
+    }
+  },
+  {
+    "model": "transport.ciudad",
+    "pk": 2,
+    "fields": {
+      "nombre": "Medellín",
+      "activo": true
+    }
+  }
+]

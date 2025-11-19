@@ -1,0 +1,66 @@
+# Backend - Django
+backend/venv/
+backend/.venv/
+backend/env/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.egg-info/
+backend/.env
+backend/db.sqlite3
+backend/.DS_Store
+backend/*.log
+backend/staticfiles/
+backend/media/
+
+# Backend - Python
+*.egg-info/
+dist/
+build/
+.Python
+*.so
+*.o
+*.a
+
+# Frontend - Node
+frontend/node_modules/
+frontend/.npm
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - PyCharm
+.idea/
+*.iml
+
+# IDE - Sublime
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lock files (opcional, descomenta si quieres incluirlos)
+# frontend/package-lock.json
+# backend/Pipfile.lock
