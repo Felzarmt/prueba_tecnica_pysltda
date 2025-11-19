@@ -23,7 +23,6 @@ python manage.py migrate
 
 # Superusuario
 python manage.py createsuperuser
-(El super usuario que se cree es el mismo usuario para acceder al software desde el cliente)
 
 # Servidor
 python manage.py runserver
@@ -49,6 +48,11 @@ npm run dev
 
 ---
 
+## Recomendaciones
+
+Es necesario entrar por medio del admin de django para crear las ciudades directamente
+en la base de datos en la ruta: http://localhost:8000/admin
+
 ## Características
 
 - Autenticación con tokens  
@@ -61,8 +65,8 @@ npm run dev
 
 ## Credenciales de Prueba
 
-- **Usuario**: admin
-- **Contraseña**: admin123
+- **Usuario**: {user super user}
+- **Contraseña**: {password super user}
 
 
 ## Endpoints API
